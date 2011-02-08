@@ -1,15 +1,15 @@
 require 'bundler/capistrano'
 APP_CONFIG = YAML.load(File.read(File.expand_path("../app.yml", __FILE__)))
 
-set :application, "#{APP_CONFIG['deploy']['application']}"
+set :application, "sarahohye@ohyes.me"
 
 set :user, "rails"
-set :deploy_to, "/sites/#{application}"
+set :deploy_to, "/home/sarahohye/webapps/portishead/app"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, :git
-set :repository, "git@github.com:mralex/portishead.git"
+set :repository, "git://github.com/ohyes/portishead.git"
 set :branch, "master"
 
 set(:rails_env) { "production" }
