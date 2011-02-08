@@ -110,7 +110,6 @@ a img {
 #pages a {
 	font-weight: bold;
 	color: #CBC8C5;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 /*	-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.17);*/
 }
 #project .links a {
@@ -272,7 +271,7 @@ a img {
 	display: block;
 	margin-left: -8px;
 	margin-bottom: 10px;
-	font-weight: bold;
+	text-decoration: none;
 }
 
 #images, #image_view ul, #projects {
