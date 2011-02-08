@@ -15,7 +15,7 @@ small {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2", "helvetica neue", helvetica, arial, sans-serif;
+	font-family: "proxima-nova-1","proxima-nova-2", "helvetica neue", helvetica, arial, sans-serif;
 }
 
 a, a:visited {
@@ -224,7 +224,7 @@ a img {
 
 #project_info #description {
 	font-family: "droid-serif-1","droid-serif-2", georgia, serif;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 18px;
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
@@ -484,7 +484,7 @@ li.image p {
 
 /* Page Styles */
 #page {
-	font: 14px "droid-serif-1","droid-serif-2", georgia, sans-serif;
+	font: 13px "droid-serif-1","droid-serif-2", georgia, sans-serif;
 	line-height: 18px;
 	letter-spacing: 0.07em;
 	
