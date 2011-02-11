@@ -30,6 +30,8 @@ $(function() {
 					
 					$("#content_box").animate({opacity: 1},{duration: 400, queue: false});
 					
+					// Google Analytics Tracking, if it exists
+					if (typeof _gaq === "object") _gaq.push(['_trackPageview', url])
 				});
 			});
 			loaded = true;
@@ -37,6 +39,9 @@ $(function() {
 			$("#index_hero").css("height", 'inherit');
 			$.getScript("/projects/heroes.js", function(e) {
 				$("#index_hero").css("height", $("#content_box").height());
+				
+				// Google Analytics Tracking, if it exists
+				if (typeof _gaq === "object") _gaq.push(['_trackPageview', "/projects/heroes.js"])
 			});
 			loaded = true;
 		}
